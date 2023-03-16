@@ -1,9 +1,9 @@
 ![](http://i.imgur.com/y3HivII.png)
 
-# DoomRetro on Ubuntu
+# [OBSOLETE] DoomRetro on Ubuntu
 [official website](http://doomretro.com/) | [official wiki](https://github.com/bradharding/doomretro/wiki) | [solved issue](https://github.com/bradharding/doomretro/issues/300)
 
-This guide is suitable for LTS 16.04 and each and every release thereafter.
+This guide is suitable for LTS 16.04<strike> and each and every release thereafter</strike>.
 
 ## Check that the following are installed
 
