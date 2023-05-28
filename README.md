@@ -10,7 +10,7 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" width="40px" height="40px"/>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg" width="40px" height="40px"/>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="40px" height="40px"/>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg" width="40px" height="40px"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40px" height="40px"/>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" width="40px" height="40px"/>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" width="40px" height="40px"/>
     </p>
