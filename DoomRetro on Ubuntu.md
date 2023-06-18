@@ -1,7 +1,7 @@
-![](http://i.imgur.com/y3HivII.png)
+![](https://i.imgur.com/y3HivII.png)
 
 # [OBSOLETE] DOOM Retro on Ubuntu
-[official website](http://doomretro.com/) | [official wiki](https://github.com/bradharding/doomretro/wiki) | [solved issue](https://github.com/bradharding/doomretro/issues/300)
+[official website](https://doomretro.com/) | [solved issue](https://github.com/bradharding/doomretro/issues/300)
 
 This guide <strike>is</strike> _was_ suitable for LTS 16.04<strike> and each and every release thereafter</strike>.
 
