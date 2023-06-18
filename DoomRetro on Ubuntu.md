@@ -110,7 +110,7 @@ cd ~/doomretro
 ./doomretro -iwad nerve.wad -file pwads/SMOOTHED.wad pwads/BlackOps.wad
 ```
 
-Albeit not an IWAD, DoomRetro considers `nerve.wad` as such. In order to play properly, `doom2.wad` has to be in the same directory.
+Albeit not an IWAD, Doom Retro considers `nerve.wad` as such. In order to play properly, `doom2.wad` has to be in the same directory.
 
 ### Final Doom: The Plutonia Experiment
 
@@ -148,8 +148,8 @@ cd ~/doomretro
 
 ### More
 
-The DoomRetro developer offers a bundled .zip file with fairly compatible [pwads](https://www.dropbox.com/s/9dr1f6nwxtq8u8o/doomretro-mappack.zip?dl=1).
+The Doom Retro developer offers a bundled .zip file with fairly compatible [pwads](https://www.dropbox.com/s/9dr1f6nwxtq8u8o/doomretro-mappack.zip?dl=1).
 
 ## Quit
 
-When quitting the game, press `y`. Not Capital-Y. If playing with audio on, an eerie sound will be produced confirming your command.
+When quitting the game, press `y`, not capital Y. If playing with audio on, an eerie sound will be produced confirming your command.
