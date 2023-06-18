@@ -5,7 +5,9 @@
 
 This guide <strike>is</strike> _was_ suitable for LTS 16.04<strike> and each and every release thereafter</strike>.
 
-## Check that the following are installed
+## Dependencies
+
+Check that the following are installed:
 
 ```
 libsdl2-dev
