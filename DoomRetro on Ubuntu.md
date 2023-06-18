@@ -148,10 +148,6 @@ cd ~/doomretro
 
 ![](http://i.imgur.com/tUDHOsG.gif)
 
-### More
-
-The Doom Retro developer offers a bundled .zip file with fairly compatible [pwads](https://www.dropbox.com/s/9dr1f6nwxtq8u8o/doomretro-mappack.zip?dl=1).
-
 ## Quit
 
 When quitting the game, press `y`, not capital Y. If playing with audio on, an eerie sound will be produced confirming your command.
