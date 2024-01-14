@@ -1,7 +1,5 @@
 <h1 align="center">Arcanum: Of Steamworks and Magick Obscura</h1>
-<br>
 <img src="https://i.imgur.com/Z5SA3X9.png" />
-<br>
 <table align="center">
 <tbody>
   <tr>
@@ -20,7 +18,7 @@
 </tbody>
 </table>
 
-<br /><hr /><br />
+<hr />
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" width="40px" height="40px"/>
@@ -42,4 +40,4 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Unofficial_Mpv_logo_%28without_gradients%29.svg" width="20px" height="20px"/> <a href="https://gist.github.com/brandleesee/d9240448e236c09cf6bf608d3530adad">MPV - Mouse Scroll for Volume</a> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Unofficial_Mpv_logo_%28without_gradients%29.svg" width="20px" height="20px"/>
 </div>
 
-<br /><hr /><br />
+<hr />
