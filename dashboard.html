@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #121212; color: #e0e0e0; margin: 0; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0; }
+        a, .channel-card { display: flex; justify-content: center; align-items: center; background: #0056b3; color: #fff; border-radius: 5px; text-decoration: none; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); text-align: center; transition: background 0.3s, transform 0.2s; }
+        a:hover { background: #004494; transform: translateY(-2px); }
+        .channel-card { background: #8B1F1F; width: 150px; height: 80px; font-size: 20px; font-weight: bold; line-height: 1.4; }
+        .channel-card:hover { background: #631616; } /* Darker shade on hover */
+        .search-input, .multi-line-input { padding: 10px; border: none; border-radius: 5px; width: 100%; max-width: 400px; margin: 5px 0; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+        .multi-line-input { height: 100px; resize: vertical; }
+        ::placeholder { color: #b0b0b0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.youtube.com/@TVMNewsmt/videos" class="channel-card" title="TVM News" target="_blank">TVM NEWS</a>
+        <a href="https://www.youtube.com/@OneNewsMalta/videos" class="channel-card" title="ONE News Malta" target="_blank">ONE NEWS MALTA</a>
+        <a href="https://www.youtube.com/@Net_News_Malta/videos" class="channel-card" title="Net News" target="_blank">NET NEWS</a>
+        <a href="https://www.youtube.com/@TimesofMalta/videos" class="channel-card" title="Times of Malta" target="_blank">TIMES OF MALTA</a>
+        <a href="https://www.youtube.com/@Newsbook_Malta/videos" class="channel-card" title="Newsbook" target="_blank">NEWSBOOK</a>
+        <a href="https://www.youtube.com/@WatchTVM/videos" class="channel-card" title="Watch TVM" target="_blank">WATCH TVM</a>
+        <a href="https://www.youtube.com/@ONEMalta/videos" class="channel-card" title="ONE Malta" target="_blank">ONE MALTA</a>
+        <a href="https://www.youtube.com/@NETTelevision/videos" class="channel-card" title="NET Television" target="_blank">NET TELEVISION</a>
+        <a href="https://www.youtube.com/@CainOnGames/videos" class="channel-card" title="Cain On Games" target="_blank">CAIN ON GAMES</a>
+        <a href="https://www.youtube.com/@MrMassy81/videos" class="channel-card" title="MrMassy 81" target="_blank">MRMASSY 81</a>
+        <a href="https://www.youtube.com/@Qxir/videos" class="channel-card" title="Qxir" target="_blank">QXIR</a>
+        <a href="https://www.youtube.com/@CuriousArchive/videos" class="channel-card" title="Curious Archive" target="_blank">CURIOUS ARCHIVE</a>
+        <a href="https://www.youtube.com/@TheVileEye/videos" class="channel-card" title="The Vile Eye" target="_blank">THE VILE EYE</a>
+        <a href="https://www.youtube.com/@MichaelNROH/videos" class="channel-card" title="Michael NROH" target="_blank">MICHAEL NROH</a>
+        <a href="https://www.youtube.com/@ColdFusion/videos" class="channel-card" title="ColdFusion" target="_blank">COLDFUSION</a>
+    </div>
+    <div class="container">
+        <input type="text" class="search-input" placeholder="Search YouTube" onkeydown="if(event.key === 'Enter'){window.open('https://www.youtube.com/results?search_query='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Google" onkeydown="if(event.key === 'Enter'){window.open('https://www.google.com/search?q='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Google Images" onkeydown="if(event.key === 'Enter'){window.open('https://www.google.com/search?tbm=isch&q='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Wikipedia" onkeydown="if(event.key === 'Enter'){window.open('https://en.wikipedia.org/wiki/Special:Search?search='+encodeURIComponent(this.value),'_blank');this.value='';}">
+    </div>
+    <div class="container">
+        <a href="https://style-guide.europa.eu/mt/home" target="_blank">Il-Ġwida tal-Istil Interistituzzjonali</a>
+        <a href="https://iate.europa.eu/search/standard" target="_blank">Interactive Terminology for Europe</a>
+        <a href="https://eur-lex.europa.eu/advanced-search-form.html" target="_blank">EUR-Lex</a>
+        <a href="https://commission.europa.eu/index_en" target="_blank">European Commission</a>
+        <a href="https://op.europa.eu/en/more-search-options" target="_blank">EU Publications</a>
+    </div>
+    <div class="container">
+        <input type="text" class="search-input" placeholder="Search MLRS Ġabra" onkeydown="if(event.key === 'Enter'){window.open('https://mlrs.research.um.edu.mt/resources/gabra/lexemes?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Verb.mt" onkeydown="if(event.key === 'Enter'){window.open('https://verb.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Linguee (English-Maltese)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=auto&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Search Linguee (Maltese-English)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=maltese&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
+    </div>
+    <div class="container">
+        <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/dec1shih.pdf" target="_blank">Deċiżjonijiet 1</a>
+        <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/dec2shih.pdf" target="_blank">Deċiżjonijiet 2</a>
+        <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/Ewro.pdf" target="_blank">Kif tikteb l-€</a>
+        <a href="https://kunsilltalmalti.gov.mt/mistoqsija-u-twegiba/" target="_blank">Mistoqsijiet</a>
+    </div>
+    <div class="container">
+        <textarea class="multi-line-input" placeholder="Type or paste your text here for English to Maltese translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=en&tl=mt&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
+        <textarea class="multi-line-input" placeholder="Type or paste your text here for Maltese to English translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=mt&tl=en&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
+    </div>
+</body>
+</html>
