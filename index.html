@@ -12,8 +12,9 @@
         a:hover { background: #004494; transform: translateY(-2px); }
         .channel-card { background: #8B1F1F; width: 150px; height: 60px; font-size: 20px; font-weight: bold; line-height: 1.4; }
         .channel-card:hover { background: #631616; }
-        .search-input, .multi-line-input { padding: 10px; border: none; border-radius: 5px; width: 100%; margin: 5px 0; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+        .search-input, .search-input-linguee, .multi-line-input { padding: 10px; border: none; border-radius: 5px; width: 100%; margin: 5px 0; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
         .search-input { max-width: 300px; }
+        .search-input-linguee { max-width: 500px; }
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
     </style>
@@ -50,17 +51,22 @@
         <a href="https://op.europa.eu/en/more-search-options" target="_blank">EU Publications</a>
     </div>
     <div class="container">
-        <input type="text" class="search-input" placeholder="Search MLRS Ġabra" onkeydown="if(event.key === 'Enter'){window.open('https://mlrs.research.um.edu.mt/resources/gabra/lexemes?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="Search Verb.mt" onkeydown="if(event.key === 'Enter'){window.open('https://verb.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="Search Linguee (English-Maltese)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=auto&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="Search Linguee (Maltese-English)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=maltese&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="Search Termini & Glossarji" onkeydown="if(event.key === 'Enter'){window.open('https://malti.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Fittex f'dil-Ġabra" onkeydown="if(event.key === 'Enter'){window.open('https://mlrs.research.um.edu.mt/resources/gabra/lexemes?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Fittex f'Verb.mt" onkeydown="if(event.key === 'Enter'){window.open('https://verb.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Fittex f'Qawl.mt" onkeydown="if(event.key === 'Enter'){window.open('https://qawl.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Fittex f'Għidha bil-Malti" onkeydown="if(event.key === 'Enter'){window.open('https://ghidhabilmalti.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input" placeholder="Fittex it-Termini" onkeydown="if(event.key === 'Enter'){window.open('https://malti.mt/?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
     </div>
     <div class="container">
         <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/dec1shih.pdf" target="_blank">Deċiżjonijiet 1</a>
         <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/dec2shih.pdf" target="_blank">Deċiżjonijiet 2</a>
         <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/Ewro.pdf" target="_blank">Kif tikteb l-€</a>
+        <a href="https://nbviewer.org/github/brandleesee/brandleesee/blob/main/dashboard/L-ISMIJIET-UFFICJALI-TAL-LOKALITAJIET-TA-MALTA-U-GHAWDEX.pdf" target="_blank">Lokalitajiet Maltin</a>
         <a href="https://kunsilltalmalti.gov.mt/mistoqsija-u-twegiba/" target="_blank">Mistoqsijiet</a>
+    </div>
+    <div class="container">
+        <input type="text" class="search-input-linguee" placeholder="Search Linguee (English-Maltese)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=auto&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
+        <input type="text" class="search-input-linguee" placeholder="Search Linguee (Maltese-English)" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=maltese&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
     </div>
     <div class="container">
         <textarea class="multi-line-input" placeholder="Type or paste your text here for English to Maltese translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=en&tl=mt&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
