@@ -20,17 +20,16 @@
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
 .grid {
-    display: flex;
-    flex-wrap: wrap;  /* This allows images to wrap to the next line */
-    justify-content: center;  /* This centers the images */
-    gap: 10px;  /* Space between image items */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between images */
 }
 
 .grid img {
-    max-width: 100%;  /* Make the image responsive */
-    height: auto;  /* Maintain original aspect ratio */
-    display: block;  /* Ensures there's no space at the bottom of images */
-    border-radius: 5px;
+    width: 100%; /* Make images responsive to their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional, for styling */
+    display: block; /* Avoid unwanted spacing below images */
 }
     </style>
 </head>
