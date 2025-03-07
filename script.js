@@ -31,25 +31,21 @@ const images = [
     '30.png'
 ];
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+function getRandomImages(imageArray, maxImages) {
+    const shuffled = imageArray.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, maxImages);
 }
 
 function displayImages() {
-    shuffleArray(images); // Shuffle the images
-    const gallery = document.getElementById('gallery');
-    gallery.innerHTML = ''; // Clear previous images
-
-    // Create img elements and append to the gallery
-    images.forEach(src => {
-        const img = document.createElement('img');
-        img.src = src;
-        img.alt = "A beautiful image"; // Add alt text for accessibility
-        gallery.appendChild(img);
+    const grid = document.getElementById('image-grid');
+    const randomImages = getRandomImages(images, 12);
+    
+    randomImages.forEach(image => {
+        const imgElement = document.createElement('img');
+        imgElement.src = image;
+        imgElement.alt = "Random Image";
+        grid.appendChild(imgElement);
     });
 }
 
-displayImages();
+window.onload = displayImages;
