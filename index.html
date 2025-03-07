@@ -19,7 +19,7 @@
         .search-input-linguee { max-width: 500px; }
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, min(200px, 1fr)); max(500px, 1fr)); gap: 10px; padding: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; padding: 10px; }
         .grid img { object-fit: cover; width: 100%; height: auto; border-radius: 5px; }
     </style>
 </head>
@@ -88,7 +88,7 @@
         <textarea class="multi-line-input" placeholder="Maltese to English translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=mt&tl=en&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
     </div>
 
-    <div id="image-grid" class="grid"></div>
+    <div class="container" id="image-grid" class="grid"></div>
 
     <script src="script.js"></script>
   
