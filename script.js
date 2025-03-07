@@ -43,9 +43,10 @@ function displayImages() {
     randomImages.forEach(image => {
         const imgElement = document.createElement('img');
         imgElement.src = image;
-        imgElement.alt = "Random Image";
+        imgElement.alt = "Random Image"; // Use appropriate alt text
         grid.appendChild(imgElement);
     });
 }
 
+// Load the images on window load
 window.onload = displayImages;
