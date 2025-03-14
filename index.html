@@ -19,18 +19,6 @@
         .search-input-linguee { max-width: 500px; }
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
-    gap: 10px; /* Space between images */
-}
-
-.grid img {
-    width: 100%; /* Make images responsive to their container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional, for styling */
-    display: block; /* Avoid unwanted spacing below images */
-}
     </style>
 </head>
 <body>
@@ -44,13 +32,14 @@
         <a href="https://www.youtube.com/@NETTelevision/videos" class="channel-card" target="_blank">NET TV</a>
         <a href="https://www.youtube.com/@ONEMalta/videos" class="channel-card" target="_blank">ONE TV</a>
         <a href="https://www.youtube.com/@CainOnGames/videos" class="channel-card" target="_blank">CAIN ON GAMES</a>
-        <a href="https://www.youtube.com/@MrMassy81/videos" class="channel-card" target="_blank">MR MASSY 81</a>
         <a href="https://www.youtube.com/@Qxir/videos" class="channel-card" target="_blank">QXIR</a>
         <a href="https://www.youtube.com/@CuriousArchive/videos" class="channel-card" target="_blank">CURIOUS ARCHIVE</a>
         <a href="https://www.youtube.com/@TheVileEye/videos" class="channel-card" target="_blank">THE VILE EYE</a>
         <a href="https://www.youtube.com/@MichaelNROH/videos" class="channel-card" target="_blank">MICHAEL NROH</a>
         <a href="https://www.youtube.com/@ColdFusion/videos" class="channel-card" target="_blank">COLD FUSION</a>
         <a href="https://www.youtube.com/@ManlyBadassHero/videos" class="channel-card" target="_blank">MANLY BADASS HERO</a>
+        <a href="https://www.youtube.com/@SavvyNik/videos" class="channel-card" target="_blank">Savvy Nik</a>
+        
     </div>
     <div class="container">
         <a href="https://www.google.com/advanced_search" target="_blank">Google Advanced Search</a>
@@ -97,10 +86,5 @@
         <textarea class="multi-line-input" placeholder="English to Maltese translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=en&tl=mt&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
         <textarea class="multi-line-input" placeholder="Maltese to English translation." onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=mt&tl=en&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
     </div>
-
-    <div class="container" id="image-grid" class="grid"></div>
-
-    <script src="script.js"></script>
-  
 </body>
 </html>
