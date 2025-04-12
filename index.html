@@ -19,23 +19,9 @@
         .search-input-linguee { max-width: 500px; }
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
-        .image-container, .posters-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between; /* Space between columns */
-            margin-bottom: 20px; /* Add space between sections */
-        }
-
-        .column, .poster-column {
-            flex: 1;
-            padding: 10px; /* Spacing around each column */
-        }
-
-        .column img, .poster-column img {
-            width: 100%; /* Make images responsive within columns */
-            height: auto; /* Maintain aspect ratio */
-            margin: 5px 0; /* Vertical spacing between images */
-        }
+        .image-container, .posters-container { display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 20px; }
+        .column, .poster-column { flex: 1; padding: 10px; }
+        .column img, .poster-column img { width: 100%; height: auto; margin: 5px 0; }
     </style>
 </head>
 <body>
@@ -117,12 +103,10 @@
         <div class="column" id="imageContainer2"></div>
         <div class="column" id="imageContainer3"></div>
     </div>
-
     <div  class="container" class="posters-container">
         <div class="poster-column" id="posterContainer1"></div>
         <div class="poster-column" id="posterContainer2"></div>
     </div>
-
     <script src="script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
