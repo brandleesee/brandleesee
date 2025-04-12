@@ -78,7 +78,7 @@ function getRandomImages(arr, num) {
 // Step 3: Display the random images in three columns
 function displayImages() {
     const totalColumns = 3;
-    const imagesPerColumn = 4; // Total 12 images across 3 columns
+    const imagesPerColumn = 3; // Total 12 images across 3 columns
     const imageContainer1 = document.getElementById('imageContainer1');
     const imageContainer2 = document.getElementById('imageContainer2');
     const imageContainer3 = document.getElementById('imageContainer3');
