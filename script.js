@@ -83,10 +83,10 @@ function displayImages() {
     const imageContainer2 = document.getElementById('imageContainer2');
     const imageContainer3 = document.getElementById('imageContainer3');
 
-    // Get 12 unique random images for the entire layout
+    // Get 9 unique random images for the entire layout
     const randomImages = getRandomImages(images, totalColumns * imagesPerColumn);
 
-    // Split the 12 images into 3 columns
+    // Split the9 images into 3 columns
     for (let i = 0; i < totalColumns; i++) {
         const columnImages = randomImages.slice(i * imagesPerColumn, (i + 1) * imagesPerColumn);
         columnImages.forEach(image => {
