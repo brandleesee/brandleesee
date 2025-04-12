@@ -19,31 +19,22 @@
         .search-input-linguee { max-width: 500px; }
         .multi-line-input { height: 100px; max-width: 500px; resize: vertical; }
         ::placeholder { color: #b0b0b0; }
-        .image-container {
+        .image-container, .posters-container {
             display: flex;
             flex-direction: row;
+            justify-content: space-between; /* Space between columns */
+            margin-bottom: 20px; /* Add space between sections */
         }
-        .column {
+
+        .column, .poster-column {
             flex: 1;
-            padding: 10px;
+            padding: 10px; /* Spacing around each column */
         }
-        .column img {
-            width: 100px; /* Set your desired width */
+
+        .column img, .poster-column img {
+            width: 100%; /* Make images responsive within columns */
             height: auto; /* Maintain aspect ratio */
-            margin: 5px;
-        }
-        .posters-container {
-            display: flex;
-            margin-top: 20px; /* Add some space between random images and posters */
-        }
-        .poster-column {
-            flex: 1;
-            padding: 10px;
-        }
-        .poster-column img {
-            width: 150px; /* Set your desired width for posters */
-            height: auto; /* Maintain aspect ratio */
-            margin: 5px;
+            margin: 5px 0; /* Vertical spacing between images */
         }
     </style>
 </head>
