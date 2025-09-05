@@ -90,7 +90,7 @@
         <a href="https://traduzzjoni.mt" class="large-text" target="_blank">TRADUZZJONI.MT</a>
         <input type="text" class="search-input-linguee" placeholder="Linguee - English to Maltese" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=auto&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
         <input type="text" class="search-input-linguee" placeholder="Linguee - Maltese to English" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=maltese&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <div class="container">
+        <div>
             <textarea class="multi-line-input" placeholder="English to Maltese" onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=en&tl=mt&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
             <textarea class="multi-line-input" placeholder="Maltese to English" onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=mt&tl=en&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
         </div>
@@ -109,6 +109,7 @@
 -->
 </body>
 </html>
+
 
 
 
