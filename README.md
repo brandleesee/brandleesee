@@ -1,19 +1,19 @@
 <table align="center">
 <tbody>
   <tr>
-   <td align="center">
-     <h3 align="center">Arcanum: Of Steamworks and Magick Obscura</h3>
-     <img src="https://i.imgur.com/Z5SA3X9.png" /></td>
-   <td align="center">
-    <p><b>[HOW TO] Patch Arcanum with UAP and other essential extras on Windows 11 & 10 on</b></p>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823">
-     <img src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" />
-    </a>
-    <p>Discussion on</p>
-    <a href="https://www.reddit.com/r/arcanum/comments/kfgv8a/how_to_patch_arcanum_with_uap_and_other_essential/">
-     <img src="https://upload.wikimedia.org/wikipedia/en/1/1f/Reddit_logo_2023.svg" />
-    </a>
-   </td>
+    <td align="center">
+      <img src="https://i.imgur.com/Z5SA3X9.png" /></td>
+    <td align="center">
+      <h3 align="center">Arcanum: Of Steamworks and Magick Obscura</h3>
+      <p><b>[HOW TO] Patch Arcanum with UAP and other essential extras on Windows 11 & 10 on</b></p>
+      <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823">
+      <img src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" />
+      </a>
+      <p>Discussion on</p>
+      <a href="https://www.reddit.com/r/arcanum/comments/kfgv8a/how_to_patch_arcanum_with_uap_and_other_essential/">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/1f/Reddit_logo_2023.svg" />
+      </a>
+    </td>
   </tr>
 </tbody>
 </table>
