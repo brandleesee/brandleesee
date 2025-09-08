@@ -5,7 +5,7 @@
       <img src="https://i.imgur.com/Z5SA3X9.png" /></td>
     <td align="center">
       <h3 align="center">Arcanum: Of Steamworks and Magick Obscura</h3>
-      <p><b>[HOW TO] Patch Arcanum with UAP and other essential extras on Windows 11 & 10 on</b></p>
+      <p>Patching Arcanum on Windows 11 & 10 on</p>
       <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823">
       <img src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" />
       </a>
