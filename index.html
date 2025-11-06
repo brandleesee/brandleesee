@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <title>dashboard</title>
+    <title>blc</title>
     <style>
         body { font-family: Arial, sans-serif; background: #121212; color: #e0e0e0; margin: 0; }
         .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0; }
         a, .channel-card, yt-red { display: flex; justify-content: center; align-items: center; background: #0056b3; color: #fff; border-radius: 5px; text-decoration: none; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); text-align: center; transition: background 0.3s, transform 0.2s; }
         a:hover { background: #004494; transform: translateY(-2px); }
-        .channel-card { background: #8B1F1F; width: 150px; height: 100px; font-size: 20px; font-weight: bold; line-height: 1.4; }
+        .channel-card { background: #8B1F1F; width: 100px; height: 50px; font-size: 20px; }
         .channel-card:hover { background: #631616; }
         .yt-red { background: #8B1F1F; font-size: 20px; }
         .yt-red:hover { background: #631616; }
         .large-text { font-size: 20px; }
-        .search-input, .search-input-linguee, .multi-line-input { padding: 10px; border: none; border-radius: 5px; width: 100%; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); font-size: 18px; }
-        .search-input { max-width: 150px; }
-        .search-input-linguee { max-width: 230px; }
-        .multi-line-input { height: 50px; max-width: 300px; resize: vertical; }
+        .search-input { padding: 10px; border: none; border-radius: 5px; width: 100%; max-width: 150px; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); font-size: 18px; }
         ::placeholder { color: #b0b0b0; }
-        .image-container, .posters-container { display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 20px; }
-        .column, .poster-column { flex: 1; padding: 10px; }
-        .column img, .poster-column img { width: 100%; height: auto; margin: 5px 0; }
     </style>
 </head>
 <body>
@@ -33,7 +27,7 @@
         <a href="https://www.youtube.com/@primovassallo/videos" class="channel-card" target="_blank">VASSALLI DI BARBERO</a>
         <a href="https://www.youtube.com/@BarbascuraEXtra/videos" class="channel-card" target="_blank">BARBASCURA EXTRA</a>
         <a href="https://www.youtube.com/@geopop/videos" class="channel-card" target="_blank">GEOPOP</a>
-        <a href="https://www.youtube.com/@riassunti_cartoons/videos" class="channel-card" target="_blank">RIASSUNTI<br>&<br>CARTOONS</a>
+        <a href="https://www.youtube.com/@riassunti_cartoons/videos" class="channel-card" target="_blank">RIASSUNTI & CARTOONS</a>
         <a href="https://www.youtube.com/@CARTONIMORTI/videos" class="channel-card" target="_blank">CARTONIMORTI</a>
         <a href="https://www.youtube.com/@DungeonSoup/videos" class="channel-card" target="_blank">DUNGEON SOUP</a>
         <a href="https://www.youtube.com/@CuriousArchive/videos" class="channel-card" target="_blank">CURIOUS ARCHIVE</a>
@@ -56,10 +50,6 @@
         <a href="https://www.youtube.com/@maxderrat/videos" class="channel-card" target="_blank">MAX DERRAT</a>
         <a href="https://www.youtube.com/@ManlyBadassHero/videos" class="channel-card" target="_blank">MANLY BADASS HERO</a>
         <a href="https://www.youtube.com/@JoshStrifePlays/videos" class="channel-card" target="_blank">JOSH STRIFE PLAYS</a>
-        <a href="https://www.youtube.com/@etimologija1881/videos" class="channel-card" target="_blank">ETIMOLOĠIJA</a>
-        <a href="https://www.youtube.com/watch?v=JBuCbj3Pe20&list=PLgjmk8eAUYYrX2exPK8AZ9U4xVwviIakX" class="channel-card" target="_blank">RAJT MALTA TINBIDEL<br>001-100</a>
-        <a href="https://www.youtube.com/watch?v=_kT4G-VynY4&list=PLgjmk8eAUYYqWiTqj6n6CJuvgRrc4Jow4" class="channel-card" target="_blank">RAJT MALTA TINBIDEL<br>101-200</a>
-        <a href="https://www.youtube.com/watch?v=aANw1KCbZdQ&list=PLgjmk8eAUYYoEZrgDUtUlc_LpSbLQ2kMX" class="channel-card" target="_blank">RAJT MALTA TINBIDEL<br>201-300</a>
     </div>
     <div class="container">
         <a href="https://www.youtube.com/@TVMNewsmt/videos" class="yt-red" target="_blank">TVM NEWS</a>
@@ -70,17 +60,6 @@
         <a href="https://www.youtube.com/@WatchTVM/videos" class="yt-red" target="_blank">TVM</a>
         <a href="https://www.youtube.com/@NETTelevision/videos" class="yt-red" target="_blank">NET TV</a>
         <a href="https://www.youtube.com/@ONEMalta/videos" class="yt-red" target="_blank">ONE TV</a>      
-    </div>
-    <div class="container">
-        <a href="https://www.google.com/advanced_search" class="large-text" target="_blank">Google Advanced Search</a>
-        <input type="text" class="search-input" placeholder="Google Search" onkeydown="if(event.key === 'Enter'){window.open('https://www.google.com/search?q='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="Image Search" onkeydown="if(event.key === 'Enter'){window.open('https://www.google.com/search?tbm=isch&q='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input" placeholder="YouTube Videos" onkeydown="if(event.key === 'Enter'){window.open('https://www.youtube.com/results?search_query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <a href="https://www.youtube.com/" class="yt-red" target="_blank">YT</a>
-        <a href="https://www.youtube.com/watch?v=2xSmDySbf5U" class="yt-red" target="_blank">Balamb Garden</a>
-        <a href="https://www.youtube.com/watch?v=4LxWlfLwWas&t=10s" class="yt-red" target="_blank">Dali Village</a>
-        <a href="https://www.youtube.com/watch?v=p3N4ZEAbEho&t=10s" class="yt-red" target="_blank">Medieval Respite</a>
-        <a href="https://mynoise.net/NoiseMachines/waterStreamNoiseGenerator.php?l=00000011243444352514&a=1&am=s&title=Water%20Stream" class="large-text" target="_blank">Water Stream</a>
     </div>
     <div class="container">
         <a href="https://iate.europa.eu/search/standard" target="_blank">IATE</a>
@@ -104,6 +83,7 @@
         <input type="text" class="search-input" placeholder="Merriam Webster" onkeydown="if(event.key === 'Enter'){window.open('https://www.merriam-webster.com/dictionary/'+encodeURIComponent(this.value),'_blank');this.value='';}">
     </div>
     <div class="container">
+        <a href="https://traduzzjoni.mt" class="large-text" target="_blank">traduzzjoni.mt</a>
         <a href="https://kunsilltalmalti.gov.mt/wp-content/uploads/2023/03/dec1shih.pdf" class="large-text" target="_blank">Deċiżjonijiet 1</a>
         <a href="https://kunsilltalmalti.gov.mt/wp-content/uploads/2023/01/dec2shih.pdf" class="large-text" target="_blank">Deċiżjonijiet 2</a>
         <a href="https://verb.mt/termini" class="large-text" target="_blank">Il-Forom tal-Verbi</a>
@@ -113,30 +93,5 @@
         <a href="https://maltikurja.com/wp-content/uploads/2022/10/is-sintassi-sentenza-semplici-u-subordinata.pdf" class="large-text" target="_blank">Is-Sintassi tal-Malti</a>
         <a href="https://kunsilltalmalti.gov.mt/mistoqsija-u-twegiba/" class="large-text" target="_blank">Mistoqsijiet</a>
     </div>
-    <div class="container">
-        <a href="https://traduzzjoni.mt" class="large-text" target="_blank">TRADUZZJONI.MT</a>
-        <input type="text" class="search-input-linguee" placeholder="Linguee - English to Maltese" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=auto&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-        <input type="text" class="search-input-linguee" placeholder="Linguee - Maltese to English" onkeydown="if(event.key === 'Enter'){window.open('https://www.linguee.com/english-maltese/search?source=maltese&query='+encodeURIComponent(this.value),'_blank');this.value='';}">
-    </div>
-    <div class="container">
-        <textarea class="multi-line-input" placeholder="English to Maltese" onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=en&tl=mt&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
-        <textarea class="multi-line-input" placeholder="Maltese to English" onkeydown="if(event.key==='Enter'&& !event.shiftKey){event.preventDefault();window.open('https://translate.google.com/?sl=mt&tl=en&text='+encodeURIComponent(this.value),'_blank');this.value='';}"></textarea>
-    </div>
-<!--
-    <div class="container" class="image-container">
-        <div class="column" id="imageContainer1"></div>
-        <div class="column" id="imageContainer2"></div>
-        <div class="column" id="imageContainer3"></div>
-    </div>
-    <div class="container" class="posters-container">
-        <div class="poster-column" id="posterContainer1"></div>
-        <div class="poster-column" id="posterContainer2"></div>
-    </div>
-    <script src="script.js"></script>
--->
 </body>
 </html>
-
-
-
-
