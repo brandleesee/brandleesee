@@ -8,12 +8,10 @@
     <style>
         body { font-family: Arial, sans-serif; background: #121212; color: #e0e0e0; margin: 0; }
         .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0; }
-        a, .channel-card, yt-red { display: flex; justify-content: center; align-items: center; background: #0056b3; color: #fff; border-radius: 5px; text-decoration: none; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); text-align: center; transition: background 0.3s, transform 0.2s; }
+        a, .channel-card { display: flex; justify-content: center; align-items: center; background: #0056b3; color: #fff; border-radius: 5px; text-decoration: none; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); text-align: center; transition: background 0.3s, transform 0.2s; }
         a:hover { background: #004494; transform: translateY(-2px); }
         .channel-card { background: #8B1F1F; width: 120px; height: 36px; font-size: 16px; }
         .channel-card:hover { background: #631616; }
-        .yt-red { background: #8B1F1F; font-size: 20px; }
-        .yt-red:hover { background: #631616; }
         .search-input { padding: 10px; border: none; border-radius: 5px; width: 100%; max-width: 150px; background: #333; color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); font-size: 18px; }
         ::placeholder { color: #b0b0b0; }
     </style>
@@ -59,14 +57,14 @@
         <a href="https://www.youtube.com/@JoshStrifePlays/videos" class="channel-card" target="_blank">JOSH STRIFE PLAYS</a>
     </div>
     <div class="container">
-        <a href="https://www.youtube.com/@TVMNewsmt/videos" class="yt-red" target="_blank">TVM NEWS</a>
-        <a href="https://www.youtube.com/@Net_News_Malta/videos" class="yt-red" target="_blank">NET NEWS</a>
-        <a href="https://www.youtube.com/@OneNewsMalta/videos" class="yt-red" target="_blank">ONE NEWS</a>
-        <a href="https://www.youtube.com/@Newsbook_Malta/videos" class="yt-red" target="_blank">NEWSBOOK</a>
-        <a href="https://www.youtube.com/@TimesofMalta/videos" class="yt-red" target="_blank">TIMES OF MALTA</a>
-        <a href="https://www.youtube.com/@WatchTVM/videos" class="yt-red" target="_blank">TVM</a>
-        <a href="https://www.youtube.com/@NETTelevision/videos" class="yt-red" target="_blank">NET TV</a>
-        <a href="https://www.youtube.com/@ONEMalta/videos" class="yt-red" target="_blank">ONE TV</a>      
+        <a href="https://www.youtube.com/@TVMNewsmt/videos" class="channel-card" target="_blank">TVM NEWS</a>
+        <a href="https://www.youtube.com/@Net_News_Malta/videos" class="channel-card" target="_blank">NET NEWS</a>
+        <a href="https://www.youtube.com/@OneNewsMalta/videos" class="channel-card" target="_blank">ONE NEWS</a>
+        <a href="https://www.youtube.com/@Newsbook_Malta/videos" class="channel-card" target="_blank">NEWSBOOK</a>
+        <a href="https://www.youtube.com/@TimesofMalta/videos" class="channel-card" target="_blank">TIMES OF MALTA</a>
+        <a href="https://www.youtube.com/@WatchTVM/videos" class="channel-card" target="_blank">TVM</a>
+        <a href="https://www.youtube.com/@NETTelevision/videos" class="channel-card" target="_blank">NET TV</a>
+        <a href="https://www.youtube.com/@ONEMalta/videos" class="channel-card" target="_blank">ONE TV</a>      
     </div>
     <div class="container">
         <input type="text" class="search-input" placeholder="Il-Ġabra" onkeydown="if(event.key === 'Enter'){window.open('https://mlrs.research.um.edu.mt/resources/gabra/lexemes?s='+encodeURIComponent(this.value),'_blank');this.value='';}">
@@ -105,6 +103,7 @@
     </div>
 </body>
 </html>
+
 
 
 
