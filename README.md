@@ -27,5 +27,5 @@
 <br />
 
 <div align="center">
-    <a href="https://brandonleecamilleri.blogspot.com/">Blog</a> | <a href="https://brandleesee.github.io/brandleesee/">Dashboard</a>
+    <a href="https://brandonleecamilleri.blogspot.com/">Blog</a> | <a href="https://brandleesee.github.io/brandleesee/">Dashboard</a> | <a href="https://forum.zorin.com/t/niri-on-zorin-18-core/53738">Niri on Zorin 18 Core</a>
 </div>
