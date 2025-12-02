@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  /* Main slider with counter */
+  .slider-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #mySlider {
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, #ffcccc 0%, #ddd 0%);
+    border-radius: 0;
+    outline: none;
+  }
+  #mySlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: red;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    margin-top: -5px;
+  }
+  #mySlider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: red;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+  }
+  #counter {
+    position: absolute;
+    bottom: -30px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    transform: translateX(-50%);
+  }
+
+  /* Style for auto sliders container */
+  #auto-sliders {
+    margin-top: 40px;
+  }
+
+  /* Individual auto slider layout */
+  .auto-slider {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  /* Slider in auto sliders */
+  .auto-slider input[type=range] {
+    width: 70%;
+    height: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, #ffcccc 0%, #ddd 0%);
+    border-radius: 5px;
+    outline: none;
+  }
+
+  /* Thumbs for auto sliders - colored red and rounded */
+  .auto-slider input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+  }
+  .auto-slider input[type=range]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+  }
+
+  /* Percentage label to the right */
+  .percentage-label {
+    width: 50px;
+    margin-left: 10px;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  /* Button styles */
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<label for="maxInput">Enter maximum value:</label>
+<input type="number" id="maxInput" min="1" />
+<button onclick="setSlider()">Set Slider</button>
+
+<div class="slider-container">
+  <input type="range" id="mySlider" min="0" max="10" value="0" />
+  <div id="counter">0</div>
+</div>
+
+<div id="auto-sliders"></div>
+<button onclick="startAutoSliders()">Start Auto Progress</button>
+
+<script>
+const slider = document.getElementById('mySlider');
+const counter = document.getElementById('counter');
+
+function setSlider() {
+  const maxVal = document.getElementById('maxInput').value;
+  slider.max = maxVal;
+  slider.value = 0;
+  updateProgress();
+  updateCounter();
+  updateCounterPosition();
+}
+
+// Update main slider background and counter
+slider.addEventListener('input', () => {
+  updateProgress();
+  updateCounter();
+  updateCounterPosition();
+});
+
+function updateCounter() {
+  counter.textContent = slider.value;
+}
+
+function updateProgress() {
+  const maxVal = slider.max;
+  const currentVal = slider.value;
+  const percent = maxVal ? (currentVal / maxVal) * 100 : 0;
+  slider.style.background = `linear-gradient(to right, #ffcccc ${percent}%, #ddd ${percent}%)`;
+}
+
+function updateCounterPosition() {
+  const maxVal = slider.max;
+  const currentVal = slider.value;
+  const percent = maxVal ? currentVal / maxVal : 0;
+  const sliderWidth = slider.offsetWidth;
+  const thumbPosition = percent * sliderWidth;
+  counter.style.left = `${thumbPosition}px`;
+  counter.style.transform = 'translateX(-50%)';
+}
+
+// ----------- Auto Sliders Logic -----------
+
+const autoSlidersContainer = document.getElementById('auto-sliders');
+
+const numAutoSliders = 5; // Number of auto sliders
+let autoSliders = []; // Will hold slider elements and their current progress
+
+// Generate auto sliders
+for (let i = 0; i < numAutoSliders; i++) {
+  const container = document.createElement('div');
+  container.className = 'auto-slider';
+
+  const sliderEl = document.createElement('input');
+  sliderEl.type = 'range';
+  sliderEl.min = 0;
+  sliderEl.max = 100;
+  sliderEl.value = 0;
+
+  const label = document.createElement('div');
+  label.className = 'percentage-label';
+  label.textContent = '0%';
+
+  container.appendChild(sliderEl);
+  container.appendChild(label);
+  autoSlidersContainer.appendChild(container);
+
+  autoSliders.push({
+    slider: sliderEl,
+    label: label,
+    progress: 0,
+    animating: false,
+    target: 100,
+    speed: 0
+  });
+}
+
+// Function to start all auto sliders
+function startAutoSliders() {
+  autoSliders.forEach(sl => {
+    sl.progress = 0;
+    sl.slider.value = 0;
+    sl.label.textContent = '0%';
+    // Assign a slower, variable speed for each slider
+    // The range is from 0.2 (slow) to 0.5 (slower)
+    sl.speed = Math.random() * 0.3 + 0.2; 
+    sl.animating = true;
+  });
+  animateAutoSliders();
+}
+
+// Animation loop for auto sliders
+function animateAutoSliders() {
+  let stillAnimating = false;
+
+  autoSliders.forEach(sl => {
+    if (sl.animating) {
+      stillAnimating = true;
+      const delta = sl.speed * 1 + Math.random() * 0.2; // add small randomness
+      sl.progress += delta;
+      if (sl.progress >= 100) {
+        sl.progress = 100;
+        sl.animating = false;
+      }
+      sl.slider.value = sl.progress;
+      sl.label.textContent = `${Math.round(sl.progress)}%`;
+      sl.slider.style.background = `linear-gradient(to right, #ffcccc ${sl.progress}%, #ddd ${sl.progress}%)`;
+    }
+  });
+
+  if (stillAnimating) {
+    requestAnimationFrame(animateAutoSliders);
+  }
+}
+</script>
+
+</body>
+</html>
