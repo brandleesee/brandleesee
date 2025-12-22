@@ -125,6 +125,14 @@ mnalla / imnalla
 
 Xħin / x’ħin
 	Xħin tkun komdu, għidli x’ħin hu ħalli xi s-siegħa mmorru nixtru xi ħaġa x’nieklu minn xi mkien fil-qrib.
+xħin [= meta, waqt li]
+	Xħin daħlu, marru jorqdu minnufih.
+	Xħin tasal, ċempel il-qanpiena.
+
+-----
+
+vażun imfaqqa’ (m.) (Mudell: imkisser)
+qasba mfaqqgħa (f.) (Mudell: mkissra)
 
 -----
 
@@ -938,10 +946,6 @@ jxebbah (v. imperfett)
 
 xhieda (= testimonjanza / nies li jixhdu) [MHUX xiehda]
 
-xħin [= meta, waqt li]
-	Xħin daħlu, marru jorqdu minnufih.
-	Xħin tasal, ċempel il-qanpiena.
-
 xogħol (sg.) (Mudell: laħam)
 	xogħli (Mudell: laħmi)
 xogħlijiet (pl.) (Mudell: laħmijiet)
@@ -957,6 +961,7 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
 
 
