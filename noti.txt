@@ -280,6 +280,8 @@ dahar (Mudell: laħam)
 dahri (Mudell: laħmi)
 daharhom (Mudelli: laħamhom)
 
+daqshekk [MHUX daqhekk, MHUX daqsekk, MHUX daqsek (id-daqs tiegħek)]
+
 daqskemm
 	Qed inħossni stordut daqskemm għandi ġuħ!
 	Dalwaqt ninstabat mal-art daqskemm qed inħossni għajjien.
@@ -291,7 +293,7 @@ daqstant
 	Ma kienx hemm daqstant nies fit-teatru.
 	Issa la ħabrikna daqstant, se naqtgħu qalbna fl-aħħar?
 
-daqsxejn [= ftit]
+daqsxejn [= ftit] [MHUX daqxejn]
 	Rajt daqsxejn ta’ tifel jibki.
 	Ħbieb, daqsxejn oħra u naslu
 għal daqsxejn
@@ -955,6 +957,7 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
 
 
