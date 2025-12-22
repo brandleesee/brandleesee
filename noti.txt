@@ -110,7 +110,7 @@ viċirè / re
 mamà / ma
 papà / pa / Papa
 
-Kliem li mhux Semitiku, li fih iktar minn żewġ sillabi, u li l-aċċent ikun fuq l-ewwel vokali mill-aħħar, dik il-vokali tkun aċċentatà.
+Kliem li mhux Semitiku, li fih żewġ sillabi jew iktar, u li l-aċċent ikun fuq l-ewwel vokali mill-aħħar, dik il-vokali tkun aċċentatà.
 
 virtù
 spiritwalità
@@ -961,3 +961,4 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
