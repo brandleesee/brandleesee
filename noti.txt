@@ -362,7 +362,7 @@ fl-aħħar [= finalment]
 sa fl-aħħar
 
 ġaladarba
-	Ìaladarba qed toġġezzjona, ikollna nwaqqfu l-proġett.
+	Ġaladarba qed toġġezzjona, ikollna nwaqqfu l-proġett.
 
 ġieli [= xi drabi]
 	Tal-gass ġieli jiġi fid-disgħa ta’ filgħodu, u ġieli fil-ħdax.
@@ -961,8 +961,3 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
-
-
-
-
-
