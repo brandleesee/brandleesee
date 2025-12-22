@@ -72,7 +72,7 @@ Il-Prepożizzjoni 'xi'
 
 -----
 
-il-Prepożizzjoni 'fi'
+Il-Prepożizzjoni 'fi'
 	fi mnieħrek [MHUX f’imnieħrek]
 	
 -----
@@ -955,5 +955,6 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
 
