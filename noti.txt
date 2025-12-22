@@ -106,6 +106,14 @@ vokali / konsonanti + żjoni
 
 kafè / te
 diġà / ġa
+viċirè / re
+mamà / ma
+papà / pa / Papa
+
+Kliem li mhux Semitiku, li fih iktar minn żewġ sillabi, u li l-aċċent ikun fuq l-ewwel vokali mill-aħħar, dik il-vokali tkun aċċentatà.
+
+virtù
+spiritwalità
 
 -----
 
@@ -268,6 +276,10 @@ għal daqshekk
 minn daqshekk
 	Minn daqshekk, ma nistax ingerger minnha.
 
+dahar (Mudell: laħam)
+dahri (Mudell: laħmi)
+daharhom (Mudelli: laħamhom)
+
 daqskemm
 	Qed inħossni stordut daqskemm għandi ġuħ!
 	Dalwaqt ninstabat mal-art daqskemm qed inħossni għajjien.
@@ -413,7 +425,9 @@ Għarbi
 
 għarax / għarrax [MHUX għargħax]
 
-għarkopptejh / għarkupptejh [għarkobbtejh, għarkubbtejh] 5.1
+għarkopptejh [MHUX għarkobbtejh]
+għarkupptejh [MHUX għarkubbtejh]
+
 għarrax → għarax 5.5
 
 għarrieda → għal għarrieda [MHUX għall-għarrieda]
@@ -934,4 +948,5 @@ iżżejjed [= wisq]
 
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
+
 (varjanti)
