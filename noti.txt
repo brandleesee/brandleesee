@@ -428,8 +428,6 @@ għarax / għarrax [MHUX għargħax]
 għarkopptejh [MHUX għarkobbtejh]
 għarkupptejh [MHUX għarkubbtejh]
 
-għarrax → għarax 5.5
-
 għarrieda → għal għarrieda [MHUX għall-għarrieda]
 
 għarukaża [= għajb]
@@ -449,7 +447,15 @@ heżżeż [MHUX heżheż]
 ħaltejn [MHUX ħalltejn]
 bejn ħaltejn
 
-id / id- / jd- skont il-pronunzja (eż. aħsel idek, aħsel idejk, erfa’ idek, erfa’ jdejk, tini idek, tini jdejk, f’idek, f’idejk) 5.2
+id / id- / jd- (skont il-pronunzja)
+	aħsel idek
+	aħsel idejk
+	erfa’ idek
+	erfa’ jdejk
+	tini idek
+	tini jdejk
+	f’idek
+	f’idejk
 
 imb [MHUX imb’]:
 	ras imb ras [MHUX ras imb’ras]
@@ -950,3 +956,4 @@ zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 
 (varjanti)
+
