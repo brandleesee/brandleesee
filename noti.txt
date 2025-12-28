@@ -59,7 +59,7 @@ Il-Prepożizzjonijiet ma’, sa, ta’ jistgħu jinkitbu sħaħ jew imqassrin (m
 Il-Prepożizzjoni 'xi'
 	xi mkien [MHUX x’imkien]
 	x’inhu
-	X’inthom tagħmlu?
+	X’intom tagħmlu?
 	xi ġmiel
 	X’intenzjoni għandek?
 	xi ħadd
@@ -961,4 +961,5 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
