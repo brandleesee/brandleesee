@@ -481,7 +481,7 @@ impjegat
 indipendenti
 
 indenn (sg.) [MHUX inden]
-indenja (f.)
+indenja (v.)
 indenji (pl.)
 
 infatti [= tant hu hekk li]
@@ -961,5 +961,6 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
 
