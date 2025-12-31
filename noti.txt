@@ -893,7 +893,7 @@ skont [MHUX skond]
 
 sogħobbih
 	jiena 	jisgħobbija
-	inti 	jixgħobbik
+	inti 	jisgħobbik
 	huwa 	jisgħobbih
 	hija 	jisgħobbiha
 	aħna 	jisgħobbina
@@ -970,4 +970,5 @@ iżżejjed [= wisq]
 zoptu [MHUX zobtu]
 soptu [MHUX sobtu]
 (varjanti)
+
 
