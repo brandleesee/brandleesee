@@ -167,6 +167,8 @@ a la xanxè
 allaħares [= gwaj jekk jiġri hekk]
 	Imma allaħares ma jaslux il-passaporti... Kif nistgħu nsiefru mingħajrhom?
 
+adolexxenti [MHUX adoloxxenti]
+
 ammen [MHUX amen]
 
 anti-Amerikan (prefiss + sing + ittra kapitali)
@@ -328,6 +330,12 @@ dawramejt
 dażgur [= bla dubju]
 	Dażgur li għandha l-garanzija dil-magna tal-ħasil!
 
+deha (v. to pass time)		heda (v. to stop)
+nesa (MUDELL)				nesa (MUDELL)
+DHJ							HDJ
+	nedhew						nehdew
+	ninsew						ninsew
+
 denn (sg.) [MHUX den]
 denn (pl.) [MHUX dennji]
 
@@ -376,6 +384,9 @@ sa fl-aħħar
 
 ġaladarba
 	Ġaladarba qed toġġezzjona, ikollna nwaqqfu l-proġett.
+
+ġawhra (sg.)
+ġawhar (pl.)
 
 ġieli [= xi drabi]
 	Tal-gass ġieli jiġi fid-disgħa ta’ filgħodu, u ġieli fil-ħdax.
@@ -464,6 +475,12 @@ hawnhekk
 
 hemmhekk
 	L-imħallef widdbu biex ma jersaqx ’l hemmhekk.
+
+heda (v. to stop)		deha (v. to pass time)
+nesa (MUDELL)			nesa (MUDELL)
+HDJ						DHJ
+	nehdew				nedhew
+	ninsew				ninsew
 
 heżżeż [MHUX heżheż]
 
@@ -937,6 +954,15 @@ terz’ordni
 
 terza persuna
 
+tiela' (MUDELL nieżel)
+	hu u tiela'
+	hu u nieżel
+tielgħa (MUDELL nieżla)
+	hi u tielgħa
+	hi u nieżla
+tiela' telgħa
+nieżel niżla
+
 tieba / tjieba
 
 użufrutt
@@ -1022,6 +1048,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
