@@ -385,7 +385,7 @@ dgħufija [MHUX djufija, MHUX dgħjufija]
 (L-għerq huwa DGħF u fil-forma tan-nom ta’ kwalità jagħtina dgħufija, minkejja li l-għ hawn titlissen j.)
 
 diq [MHUX dieq]
-diqa [MHUX dieqa]
+diqa [MHUX dieqa] (nom astratt bħal ħila riħa)
 djieq [MHUX djiq] (verb inkoattiv 9F)
 
 duħ [MHUX dugħ]
@@ -1117,6 +1117,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
