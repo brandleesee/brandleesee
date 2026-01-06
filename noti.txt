@@ -1002,6 +1002,11 @@ taparsi
 tassew
 	Dun Karm kiteb poeżiji tassew sbieħ.
 
+tefgħa ta’ ġebla ’l bogħod
+kisra (MUDELL)
+
+tfigħ (nom astratt) mhux bil-ie anke jekk il-ħsejjes talħ, l-h, l-għ u l-q jġebbdu u jtawlu l-i, dak għax huma glottali (ill-fond tal-ħalq
+
 teledramm
 	Tkun xi tkun il-kwalità artistika tiegħu, it-teledramm bil-Malti dejjem popolari.
 
@@ -1106,6 +1111,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
