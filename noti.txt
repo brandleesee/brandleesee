@@ -892,7 +892,8 @@ psewdointellettwali
 qabelxejn [= fil-bidu nett]
 	Qabelxejn, nirringrazzja lil ommi għax kienet hi li xettlet fija l-imħabba lejn l-arti.
 
-qanpiena [MHUX qampiena]
+qanpiena (sg.) [MHUX qampiena]
+qniepen (pl.)
 
 radjudramm
 	Fis-sittinijiet, il-palk sab żvog ġdid fir-radjudramm minn fuq ir-Rediffusion.
@@ -1087,6 +1088,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
