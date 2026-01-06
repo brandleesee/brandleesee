@@ -94,15 +94,15 @@ Id-Direzzjonijiet qatt ma jieħdu sing.
 	- taqsiriet ta’ lil
 	- il-virgoletta hi dik tal-għeluq
 
-’l hawn
-’l hinn
-’l hemm
-’l bogħod
-’il bogħod
-mar ’il fuq
-ħarsa ’l fuq
-dar ’l isfel
-tixmira ’l isfel
+	’l hawn
+	’l hinn
+	’l hemm
+	’l bogħod
+	’il bogħod
+	mar ’il fuq
+	ħarsa ’l fuq
+	dar ’l isfel
+	tixmira ’l isfel
 
 -----
 
@@ -151,6 +151,7 @@ papà / pa / Papa
 
 Kliem li mhux Semitiku, li fih żewġ sillabi jew iktar, u li l-aċċent ikun fuq l-ewwel vokali mill-aħħar, dik il-vokali tkun aċċentatà.
 
+xanxè
 virtù
 spiritwalità
 
@@ -1084,6 +1085,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
