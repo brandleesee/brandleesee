@@ -393,11 +393,11 @@ dawramejt
 dażgur [= bla dubju]
 	Dażgur li għandha l-garanzija dil-magna tal-ħasil!
 
-deha (v. to pass time)		heda (v. to stop)
-nesa (MUDELL)				nesa (MUDELL)
-DHJ							HDJ
-	nedhew						nehdew
-	ninsew						ninsew
+deha (v. to pass time)      heda (v. to stop)
+nesa (MUDELL)               nesa (MUDELL)
+DHJ                         HDJ
+	nedhew                      nehdew
+	ninsew                      ninsew
 
 denn (sg.) [MHUX den]
 denn (pl.) [MHUX dennji]
@@ -1149,6 +1149,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
