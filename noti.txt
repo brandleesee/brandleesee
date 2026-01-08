@@ -1144,13 +1144,13 @@ Il-Ħames Prinċipji tal-Ortografija tal-Lingwa Maltija
 	Nevitaw il-kitba ta' kliem stramb.
 
 Agħti l-prinċipji tal-ortografija, enumerati skont l-ordni ta' kif jiġu applikati:
-	Nru		Prinċipju
-	---		---------
-	1		Fonetiku
-	2		Fonoloġiku
-	3		Storiku/Etimoloġiku
-	4		Morfoloġiku
-	5		Viżiv
+	Nru		Prinċipju                 Tip
+	---		---------                 
+	1		Fonetiku                  ie
+	2		Fonoloġiku                assimilazzjoni
+	3		Storiku/Etimoloġiku       h, għ, i etimoloġika (mmens TINKITEB immens)
+	4		Morfoloġiku               konjugazzjoni, binja (noqogħd TINKITEB noqgħod)
+	5		Viżiv                     ismijiet, Deċiżjonijiet 2, Ingliż
 
 Għaliex il-Malti għandu dawn il-ħames prinċipji?
 Għaliex ma ntagħżlitx ortografija fonetika għalkollox?
@@ -1158,6 +1158,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
