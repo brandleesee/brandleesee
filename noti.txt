@@ -899,8 +899,8 @@ nofsillejl [= 12.00 am]
 nofsinhar [= 12.00 pm]
 	F’nofsinhar kulħadd jieqaf mix-xogħol għall-ikel.
 	F’nofsinhar bumm konna nduru madwar il-mejda b’regolarità militari.
-Wara nofsinhar id-dell jibda jitwal.
 wara nofsinhar [= wara 12.00 pm]
+	Wara nofsinhar id-dell jibda jitwal.
 waranofsinhar [= minn nofsinhar sa kmieni filgħaxija] (il-medda ta’ ħin minn nofsinhar sa qabel filgħaxija)
 	Il-waranofsinhar it-tajjeb.
 	Għaddejt il-waranofsinhar kollu naqra u issa għandi moħħi mixrub.
@@ -1158,6 +1158,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
