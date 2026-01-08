@@ -1061,13 +1061,13 @@ terz’ordni
 
 terza persuna
 
-tiela' (MUDELL nieżel)
-	hu u tiela'
+tiela’ (MUDELL nieżel)
+	hu u tiela’
 	hu u nieżel
 tielgħa (MUDELL nieżla)
 	hi u tielgħa
 	hi u nieżla
-tiela' telgħa
+tiela’ telgħa
 nieżel niżla
 
 tieba / tjieba
@@ -1113,10 +1113,10 @@ soptu [MHUX sobtu]
 
 Il-Ħames Prinċipji tal-Ortografija tal-Lingwa Maltija
 
-1) Prinċipju Fonetiku (tikteb kif tisma')
+1) Prinċipju Fonetiku (tikteb kif tisma’)
 
 2) Prinċipju Fonoloġiku 
-	tinterpreta l-ħsejjes li tisma'
+	tinterpreta l-ħsejjes li tisma’
 	it-telf tal-leħen - bieb[biep] ħadid[ħadit] kasti[kastik]
 	l-assimilazzjoni parzjali - L+N = NN btala[ptala]
 				  - N+L = LL sbieħ[żbieħ]
@@ -1148,7 +1148,7 @@ Agħti l-prinċipji tal-ortografija, enumerati skont l-ordni ta' kif jiġu appli
 	---		---------                 
 	1		Fonetiku                  ie
 	2		Fonoloġiku                assimilazzjoni
-	3		Storiku/Etimoloġiku       h, għ, i etimoloġika (mmens TINKITEB immens)
+	3		Storiku/Etimoloġiku       h, għ, ’, i etimoloġika (mmens TINKITEB immens)
 	4		Morfoloġiku               konjugazzjoni, binja (noqogħd TINKITEB noqgħod)
 	5		Viżiv                     ismijiet, Deċiżjonijiet 2, Ingliż, ittra kapitali fil-bidu tas-sentenza, fullstop
 
@@ -1158,43 +1158,3 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
