@@ -1148,7 +1148,7 @@ Agħti l-prinċipji tal-ortografija, enumerati skont l-ordni ta' kif jiġu appli
 	---		---------                 
 	1		Fonetiku                  ie
 	2		Fonoloġiku                assimilazzjoni
-	3		Storiku/Etimoloġiku       h, għ, ’, i etimoloġika (mmens TINKITEB immens)
+	3		Storiku/Etimoloġiku       h (xagħar month JINKITEB xahar), għ ’ (sengħa year TINKITEB sena),	 i etimoloġika (mmens TINKITEB immens) NEQSIN / REPLACED u ŻEJDA (taqra’ TINKITEB taqra)
 	4		Morfoloġiku               konjugazzjoni, binja, il-forma tal-kelma (laqa’ (n.) FLOK laqgħa (n.)) (noqogħd TINKITEB noqgħod)
 	5		Viżiv                     ismijiet, Deċiżjonijiet 2, Ingliż, ittra kapitali fil-bidu tas-sentenza, fullstop
 
@@ -1158,4 +1158,5 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
