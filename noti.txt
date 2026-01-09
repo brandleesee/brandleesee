@@ -163,19 +163,19 @@ vokali + zzjoni
 	diżindustrijalizzazzjoni
 konsonanti + zjoni
 	manutenzjoni
-    funzjoni
-    intenzjoni
+	funzjoni
+	intenzjoni
 vokali / konsonanti + żjoni
 	okkażjoni
 	persważjoni
 	konklużjoni
 
 vokali + ssjoni
-    purċissjoni
-    missjoni
+	purċissjoni
+	missjoni
 konsonanti + sjoni
-    pensjoni
-    tensjoni
+	pensjoni
+	tensjoni
 
 -----
 
@@ -1167,6 +1167,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
