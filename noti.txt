@@ -1109,6 +1109,13 @@ xogħlijiet (pl.) (Mudell: laħmijiet)
 żagħżugħ (sg.) (mudell: żarbun)
 żgħażagħ (pl.) (mudell: żraben)
 
+żgħir
+k bir (MUDELL)
+żgħira
+kb ira (MUDELL)
+żgħar
+kbar (MUDELL)
+
 iżżejjed [= wisq]
 	Issa żżejjed! Wissejtek kemm-il darba u se jkolli nirrappurtak.
 
@@ -1167,8 +1174,3 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
-
-
-
-
-
