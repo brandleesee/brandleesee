@@ -542,6 +542,9 @@ għarukaża [= għajb]
 għarkaża
 (varjanti)
 
+l-għeja (n. astratt) (tiredness) [j waħda]
+għejja (v. transittiv) (he amde tired someone else) [j doppja]
+
 għeżżeż (to grind teeth)
  kisser MUDELL
 	jgħeżżeż snienu
@@ -831,11 +834,11 @@ manġapassiġġa
 matul [= għal kemm itul]
 	Matul il-lejl għamlet ħafna xita.
 
+mifqugħ mifqugħa mifqugħin
+miksur  miksur a miksur in (MUDELL)
+
 minbarra [= apparti, apart from]
 	Minbarra l-impjieg, trid tlaħħaq ukoll max-xogħol tad-dar.
-
-mija (s.)
-mijiet (pl.)
 
 minflok
 	Minflok ma jgħinna, dejjem insibuh itellifna.
@@ -875,6 +878,9 @@ minnufih [= dlonk]
 	Tħallix żmien iktar, itlaq minnufih.
 
 minn xi daqqiet
+
+mija (s.)
+mijiet (pl.)
 
 imnalla / mnalla
 	Imnalla ġibtuh intom l-inbid.
@@ -1052,6 +1058,9 @@ Il-konjugazzjonijiet kollha huma stagħġ-
 
 subien [MHUX subjien]
 
+ta [taqsira ta’ "tafx"] (bla appostrofu)
+	anke jien ta!
+
 tabilħaqq [= tassew]
 	Għandu karattru tabilħaqq skifuż.
 	Tabilħaqq, għandek raġun.
@@ -1093,6 +1102,11 @@ nieżel niżla
 
 tieba / tjieba
 
+ l-uġigħ (n. astratt) [MHUX bl-ie]
+il-kbir (MUDELL)
+il-weġagħat (pl.)
+il-k bar at (MUDELL/kbarat) (l-e hija tal-leħen) 
+
 użufrutt
 	Id-dar tal-ulied, imma l-ġenituri għandhom l-użufrutt tagħha.
 
@@ -1111,6 +1125,13 @@ xbieha (sg.) [MHUX xbiha]
 xbihat (pl.)
 xebbah (v. perfett)
 jxebbah (v. imperfett)
+
+xema’ = wax
+
+xemgħa (s.) = candle
+xemgħat (pl. determinat li jintuża bejn 2 u 10) = camdles
+xema’ (pl. indeterminat) = candles
+	u fil-knisja ringieli ta' xema’ kullimkien.
 
 xhieda (= testimonjanza / nies li jixhdu) [MHUX xiehda]
 
@@ -1189,6 +1210,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
