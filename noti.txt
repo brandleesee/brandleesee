@@ -1,15 +1,15 @@
 Il-Pronomi Personali u n-Negattiv tagħhom
 	jiena:		m’jiniex / m’iniex	m'jiena		[MHUX mjiniex miniex mjiena]
 	 jien:		m’jienx			m’jien		[MHUX mjienx mjien]
-	inti:		m’intix			m’inti		[MHUX mintix minti]
-	 int:		m’intx			m’int		[MHUX mintx mint]
-	huwa:		mhuwiex			mhuwa		[MHUX m’huwiex m’huwa]
-	  hu:		mhux			mhu		[MHUX m’hux m’hu]
-	hija:		mhijiex			mhija		[MHUX m’hijiex m’hija]
-	  hi:		mhix			mhi		[MHUX m’hix m’hi]
-	aħna:		m’aħniex		m’aħna		[MHUX maħniex maħna]
+	 inti:		m’intix			m’inti		[MHUX mintix minti]
+	  int:		m’intx			m’int		[MHUX mintx mint]
+	 huwa:		mhuwiex			mhuwa		[MHUX m’huwiex m’huwa]
+	   hu:		mhux			mhu		[MHUX m’hux m’hu]
+	 hija:		mhijiex			mhija		[MHUX m’hijiex m’hija]
+	   hi:		mhix			mhi		[MHUX m’hix m’hi]
+	 aħna:		m’aħniex		m’aħna		[MHUX maħniex maħna]
 	intom:		m’intomx		m’intom		[MHUX mintomx mintom]
-	huma:		mhumiex			mhuma		[MHUX m’humiex m’huma]
+	 huma:		mhumiex			mhuma		[MHUX m’humiex m’huma]
 
 	hemm:	m'hemmx / ma hemmx
 	hawn:	m'hawnx / ma hawnx
@@ -1218,6 +1218,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
