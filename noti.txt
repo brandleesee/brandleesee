@@ -1038,6 +1038,15 @@ sottokumitat
 stabene [= għani, għandu ħafna ġid]
 	Miskin il-fqir għax ibati l-ġuħ, min ikun stabene lanqas jinduna bl-għoli tal-ħajja.
 
+stagħġeb
+Il-konjugazzjonijiet kollha huma stagħġ-
+	nistagħġeb
+	ma jistagħġbux
+	stagħġbet
+	ma stagħġibniex
+	Stagħġbu! (Imperattiv)
+	Tistagħġbux! (Imperattiv)
+
 subien [MHUX subjien]
 
 tabilħaqq [= tassew]
@@ -1177,4 +1186,5 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
