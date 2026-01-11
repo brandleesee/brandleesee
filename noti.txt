@@ -185,7 +185,7 @@ viċirè / re
 mamà / ma
 papà / pa / Papa
 
-Kliem li mhux Semitiku, li fih żewġ sillabi jew iktar, l-aċċent ikun fuq l-ewwel vokali mill-aħħar, u l-aħħar ittra hija vokali mela dik il-vokali tkun aċċentatà.
+Kliem li mhux Semitiku, li fih żewġ sillabi jew iktar, l-aċċent ikun fuq l-ewwel vokali mill-aħħar, u l-aħħar ittra hija vokali mela dik il-vokali tkun aċċentata.
 
 xanxè
 virtù
@@ -645,6 +645,14 @@ karozza [MHUX karrozza]
 karru 
 karretta [MHUX karetta]
 karettun / karrettun (varjanti)
+
+kas-
+kasi kasek kasu kasha kasna kaskom kashom
+	Agħti kasi!
+
+il-każ (case)
+	nagħtu każ [pereżempju]
+fil-każ
 
 każbar [MHUX kasbar]
 
@@ -1210,6 +1218,7 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
+
 
 
 
