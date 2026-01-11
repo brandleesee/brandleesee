@@ -466,6 +466,11 @@ sa fl-aħħar
 ġiex [MHUX ġix]
 ġixt bit-t marbuta
 
+ġimgħa (s.) (wiżna MUDELL)
+ġimgħat (pl.)
+ġimagħtejn
+wiżin tejn (MUDELL/wiżintejn)
+
 ġiżż
 ġiżżejt
 inġiżżek
@@ -1137,7 +1142,7 @@ jxebbah (v. imperfett)
 xema’ = wax
 
 xemgħa (s.) = candle
-xemgħat (pl. determinat li jintuża bejn 2 u 10) = camdles
+xemgħat (pl. determinat li jintuża bejn 2 u 10) = candles
 xema’ (pl. indeterminat) = candles
 	u fil-knisja ringieli ta' xema’ kullimkien.
 
@@ -1218,9 +1223,3 @@ X'riedu jiksbu jew isalvaw dawk li ma bbażawx ir-regoli fuq il-fonteika biss?
 	Ir-raġunijiet ewlenin huma l-konsistenza fonoloġika, insalvaw l-integrità tal-għerq, il-kontinwità storika ta' ħsejjes tradizzjonali bil-valur ikoniku tagħhom, l-integrità tal-forom tal-morfoloġija introlessiva Semitika u biex nevitaw il-kitba ta' kliem stramb li jtellifna waqt il-qari.
 
 -----
-
-
-
-
-
-
