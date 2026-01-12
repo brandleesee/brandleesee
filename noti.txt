@@ -409,7 +409,7 @@ DHJ                         HDJ
 	ninsew                      ninsew
 
 denn (sg.) [MHUX den]
-denn (pl.) [MHUX dennji]
+denji (pl.) [MHUX dennji]
 
 deputat kap
 
@@ -1229,5 +1229,6 @@ Fl-2010 infetaħ
         1
     Fonetiku
 -----
+
 
 
