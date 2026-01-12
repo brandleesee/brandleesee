@@ -1,8 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/Z5SA3X9.png" />
-<h3>Arcanum: Of Steamworks and Magick Obscura</h3>
-<p>Patching Arcanum on Windows 11 & 10</p>
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823">https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823</a>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2311393823">Patching Arcanum: Of Steamworks and Magick Obscura on Windows 11</a>
 </div>
 
 <hr />
