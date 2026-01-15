@@ -303,6 +303,9 @@ Bibbja
 bibliku [MHUX bibbliku]
 biblista [MHUX bibblista]
 
+biċċa (sg.)
+biċċtejn (pl.)
+
 bies (pl. bisien) [MHUX bież]
 
 bilfors
@@ -1229,6 +1232,7 @@ Fl-2010 infetaħ
         1
     Fonetiku
 -----
+
 
 
 
