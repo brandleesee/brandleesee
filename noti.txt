@@ -108,6 +108,8 @@ bi + iex = biex
 fi + iex = fiex [MHUX fhiex]
 xi + iex = xiex
 
+fuq + iex = fuqiex
+
 daqs + iex = daqsiex [MHUX daqshiex]
 għal + iex = għaliex
 
@@ -1236,3 +1238,4 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
