@@ -217,6 +217,28 @@ qasba mfaqqgħa (f.) (Mudell: imkissra)
 
 -----
 
+-ha  vs -għa
+
+Nom komuni għall-femminil:
+     maskil + -a
+          tabib -> tabiba
+
+Aġġettiv komuni għall-femminil:
+     maskil + -a
+          sabiħ -> sabiħa
+
+AQLEB IL-KELMA GĦALL-PLURAL (LILHOM / TAGĦHOM) SKONT IL-KAŻ:-
+     - nom tagħa / verb lilha / prepożizzjoni + pronom mehmuż:
+          -hom --> -ha
+               ħaġar -> PLURAL -> ħaġarhom -> FEMMINIL -> ħaġarha
+               ħaġġar-> PLURAL -> ħaġġarhom-> FEMMINIL -> ħaġġarhom
+               kiteb -> PLURAL -> kitibhom -> FEMMINIL -> kitibha
+     - aġġettiv / partiċipju:
+          -għin --> -għa
+               maqtugħ -> PLURAL -> maqtugħin -> FEMMINIL -> maqtugħa
+
+-----
+
 afli [= żgur li]
 	Afli wiċċek tost wisq, biex qed terġa’ titlobni dak li ma ħaqqekx!
 
@@ -1247,6 +1269,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
