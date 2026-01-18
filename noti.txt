@@ -332,6 +332,8 @@ bil-kif [= immensament]
 
 billejl [= waqt il-lejl]
 	Ħafna mis-serq isir billejl biex id-dalma tostor kollox.
+il-lejl / il-lejla [the evening]
+illejla [tonight, this evening]
 
 bilqiegħda
 	Mhux rispett li meta jidħol is-surmast fil-kamra tibqa’ bilqiegħda.
@@ -1245,6 +1247,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
