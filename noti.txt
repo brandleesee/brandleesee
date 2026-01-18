@@ -201,7 +201,10 @@ mnalla / imnalla
 
 -----
 
-Xħin / x’ħin
+xħin [waqt li]
+x'ħin [what time]
+
+Xħin vs x’ħin
 	Xħin tkun komdu, għidli x’ħin hu ħalli xi s-siegħa mmorru nixtru xi ħaġa x’nieklu minn xi mkien fil-qrib.
 xħin [= meta, waqt li]
 	Xħin daħlu, marru jorqdu minnufih.
@@ -1238,4 +1241,5 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
