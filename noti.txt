@@ -432,6 +432,9 @@ diq [MHUX dieq]
 diqa [MHUX dieqa] (nom astratt bħal ħila riħa)
 djieq [MHUX djiq] (verb inkoattiv 9F)
 
+disinn (sg.)
+disinji (pl.)
+
 duħ [MHUX dugħ]
 
 dvalja [MHUX tvalja]
@@ -1241,5 +1244,6 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
