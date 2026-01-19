@@ -583,7 +583,8 @@ għarkaża
 (varjanti)
 
 l-għeja (n. astratt) (tiredness) [j waħda]
-għejja (v. transittiv) (he amde tired someone else) [j doppja]
+għeja (v. 1F) [għandu l-għeja, hu għeja; j waħda]
+għejja (v. transittiv) (he made tired someone else) [j doppja]
 
 għeżżeż (to grind teeth)
  kisser MUDELL
@@ -1269,6 +1270,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
