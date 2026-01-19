@@ -692,7 +692,7 @@ kasi kasek kasu kasha kasna kaskom kashom
 
 il-każ (case)
 	nagħtu każ [pereżempju]
-fil-każ
+fil-każ / f'każ li
 
 każbar [MHUX kasbar]
 
@@ -1269,6 +1269,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
