@@ -1158,6 +1158,9 @@ il-kbir (MUDELL)
 il-weġagħat (pl.)
 il-k bar at (MUDELL/kbarat) (l-e hija tal-leħen) 
 
+uffiċċju uffiċċji uffiċini
+uffiċjal uffiċjali uffiċjalità
+
 użufrutt
 	Id-dar tal-ulied, imma l-ġenituri għandhom l-użufrutt tagħha.
 
@@ -1270,6 +1273,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
