@@ -860,6 +860,10 @@ sal-lum
 tal-lum
 	Iż-żgħażagħ tal-lum għandhom wisq iktar xi jtellifhom minn ta’ dari.
 
+lumi
+lumija
+lumijiet
+
 lura
 	Min ġej ’il quddiem u min sejjer lura.
 
@@ -1274,6 +1278,7 @@ Fl-2010 infetaħ
 L-ICE iqajmu
       5
 -----
+
 
 
 
