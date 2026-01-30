@@ -1104,6 +1104,10 @@ sadanittant, sadattant [= f’din il-medda ta’ ħin/żmien]
 
 sa fejn
 
+sabiħ (s.m.)
+sabiħa (s.f.)
+sbieħ (pl.)
+
 safrattant [= minkejja kollox]
 	Safrattant dak li ried jagħmel, xorta għamlu.
 
@@ -1282,3 +1286,4 @@ soptu [MHUX sobtu]
 (varjanti)
 
 -----
+
