@@ -1086,6 +1086,12 @@ raba’ = għelieqi (bl-appostrofu bħar-4 wieħed)
 radjudramm
 	Fis-sittinijiet, il-palk sab żvog ġdid fir-radjudramm minn fuq ir-Rediffusion.
 
+rama (v.) [he constructed]
+	hi ramat is-siġra tal-Milied
+
+rema’ <v.) [he threw away]
+	ilbieraħ hi remgħet it-tissues fil-borża s-sewda
+
 resaq
 jien rsaqt [MA TIBDIEX bl-e]
 jien ħriġt
@@ -1286,4 +1292,5 @@ soptu [MHUX sobtu]
 (varjanti)
 
 -----
+
 
