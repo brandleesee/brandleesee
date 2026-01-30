@@ -52,6 +52,14 @@ Fl-2010 infetaħ
       jqajmu
 L-ICE iqajmu
       5
+
+         nbid
+tipi ta’ mbid
+         2
+
+         llegar
+tipi ta’ illegar
+         1
 -----
 
 Il-Pronomi Personali u n-Negattiv tagħhom
@@ -1294,6 +1302,7 @@ soptu [MHUX sobtu]
 (varjanti)
 
 -----
+
 
 
 
