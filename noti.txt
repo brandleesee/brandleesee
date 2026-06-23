@@ -820,6 +820,8 @@ tal-anqas / tal-inqas
 	Tal-anqas ma qabadx miegħi l-prinċipal ukoll!
 	Infaqna ħafna flus imma tal-anqas ir-riżultati issa jidhru.
 
+laptu [MHUX labtu]
+
 ilbieraħ
 	Ilbieraħ ġrat diżgrazzja li se nibqgħu niftakruha.
 bħall-bieraħ
