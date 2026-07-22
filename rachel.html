@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Channel RSS Feeder</title>
+  <style>
+    :root { --bg:#0f172a; --card:#1f2937; --text:#e5e7eb; --muted:#94a3b8; --border:#334155; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width:1100px; margin:0 auto; padding:24px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+    .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#0b1220; }
+    .content { padding:14px; }
+    .channel { font-size:.9rem; color:#fca5a5; margin-bottom:8px; }
+    .title { font-size:1rem; line-height:1.35; margin:0 0 10px; }
+    .meta { font-size:.9rem; color:var(--muted); }
+    a { color:inherit; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="grid" id="feed"></div>
+  </div>
+
+  <script>
+    const channels = [
+      { name: "Ms Rachel", id: "UCG2CL6EUjG8TVT1Tpl9nJdg" }
+    ];
+
+    const els = {
+      feed: document.getElementById("feed")
+    };
+
+    function ytRssUrl(channelId) {
+      return `https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(channelId)}`;
+    }
+
+    function rssToJsonUrl(rssUrl) {
+      return `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str ?? "";
+      return div.innerHTML;
+    }
+
+    function formatDate(dateStr) {
+      const d = new Date(dateStr);
+      if (isNaN(d)) return "Unknown date";
+      return d.toLocaleString();
+    }
+
+    function extractVideoId(link) {
+      try {
+        const url = new URL(link);
+        return url.searchParams.get("v");
+      } catch {
+        return null;
+      }
+    }
+
+    function thumbnailFor(item) {
+      if (item.thumbnail) return item.thumbnail;
+      const id = extractVideoId(item.link);
+      return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
+    }
+
+    async function fetchChannelFeed(channel) {
+      const url = rssToJsonUrl(ytRssUrl(channel.id));
+      const res = await fetch(url);
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} for ${channel.name}`);
+      }
+
+      const data = await res.json();
+
+      if (data.status !== "ok") {
+        throw new Error(`Feed error for ${channel.name}: ${data.message || "unknown error"}`);
+      }
+
+      return (data.items || []).map(item => ({
+        channelName: channel.name,
+        title: item.title,
+        link: item.link,
+        pubDate: item.pubDate,
+        thumbnail: thumbnailFor(item),
+      }));
+    }
+
+    function renderItems(items) {
+      els.feed.innerHTML = items.map(item => `
+        <article class="card">
+          <a href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+            ${item.thumbnail ? `<img class="thumb" src="${escapeHtml(item.thumbnail)}" alt="">` : ""}
+            <div class="content">
+              <div class="channel">${escapeHtml(item.channelName)}</div>
+              <h2 class="title">${escapeHtml(item.title)}</h2>
+              <div class="meta">${escapeHtml(formatDate(item.pubDate))}</div>
+            </div>
+          </a>
+        </article>
+      `).join("");
+    }
+
+    async function loadFeeds() {
+      const settled = await Promise.allSettled(channels.map(fetchChannelFeed));
+      const allItems = [];
+
+      for (const result of settled) {
+        if (result.status === "fulfilled") {
+          allItems.push(...result.value);
+        }
+      }
+
+      allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      renderItems(allItems);
+    }
+
+    loadFeeds();
+  </script>
+</body>
+</html>
