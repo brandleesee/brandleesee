@@ -1,83 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <title>dashboard</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #121212; color: #e0e0e0; margin: 0; }
-        .container { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 16px 0; }
-        a, .channel-card { display: flex; justify-content: center; align-items: center; background: #0056b3; color: #fff; border-radius: 5px; text-decoration: none; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); text-align: center; transition: background 0.3s, transform 0.2s; }
-        a:hover { background: #004494; transform: translateY(-2px); }
-        .channel-card { background: #8B1F1F; width: 124px; height: 36px; font-size: 16px; }
-        .channel-card:hover { background: #631616; }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Channel RSS Feeder</title>
+  <style>
+    :root { --bg:#0f172a; --card:#1f2937; --text:#e5e7eb; --muted:#94a3b8; --border:#334155; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { width:min(98vw,2200px); margin:0 auto; padding:12px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:10px; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+    .thumb-link { display:block; }
+    .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#0b1220; display:block; }
+    .content { padding:10px; }
+    .channel { font-size:.8rem; margin:0 0 6px; }
+    .channel a { color:#fca5a5; text-decoration:none; }
+    .channel a:hover { text-decoration:underline; }
+    .title { font-size:.92rem; line-height:1.25; margin:0 0 6px; }
+    .title a { color:inherit; text-decoration:none; }
+    .title a:hover { text-decoration:underline; }
+    .meta { font-size:.8rem; color:var(--muted); }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <a href="https://www.youtube.com/@XboxAhoy/videos" class="channel-card" target="_blank">AHOY</a>
-        <a href="https://www.youtube.com/@Qxir/videos" class="channel-card" target="_blank">QXIR</a>
-        <a href="https://www.youtube.com/@gloomstomper/shorts" class="channel-card" target="_blank">GLOOMSTOMPER</a>
-        <a href="https://www.youtube.com/@ElisaTrueCrime/videos" class="channel-card" target="_blank">ELISA TRUE CRIME</a>
-        <a href="https://www.youtube.com/@primovassallo/videos" class="channel-card" target="_blank">VASSALLI DI BARBERO</a>
-        <a href="https://www.youtube.com/@BarbascuraEXtra/videos" class="channel-card" target="_blank">BARBASCURA EXTRA</a>
-        <a href="https://www.youtube.com/@geopop/videos" class="channel-card" target="_blank">GEOPOP</a>
-        <a href="https://www.youtube.com/@kylehill/videos" class="channel-card" target="_blank">KYLE HILL</a>
-        <a href="https://www.youtube.com/@riassunti_cartoons/videos" class="channel-card" target="_blank">RIASSUNTI & CARTOONS</a>
-        <a href="https://www.youtube.com/@CARTONIMORTI/videos" class="channel-card" target="_blank">CARTONIMORTI</a>
-        <a href="https://www.youtube.com/@DungeonSoup/videos" class="channel-card" target="_blank">DUNGEON SOUP</a>
-        <a href="https://www.youtube.com/@CuriousArchive/videos" class="channel-card" target="_blank">CURIOUS ARCHIVE</a>
-        <a href="https://www.youtube.com/@OfficialBeyondTheBlue/videos" class="channel-card" target="_blank">BEYOND THE BLUE</a>
-        <a href="https://www.youtube.com/@ExtinctZoo/videos" class="channel-card" target="_blank">EXTINCT ZOO</a>
-        <a href="https://www.youtube.com/@TheVileEye/videos" class="channel-card" target="_blank">THE VILE EYE</a>
-        <a href="https://www.youtube.com/@CosmicHorrorLore/videos" class="channel-card" target="_blank">COSMIC LORE</a>
-        <a href="https://www.youtube.com/@EntertainTheElk/videos" class="channel-card" target="_blank">ENTERTAIN THE ELK</a>
-        <a href="https://www.youtube.com/@RyanHollinger/videos" class="channel-card" target="_blank">RYAN HOLLINGER</a>
-        <a href="https://www.youtube.com/@JakeAtFlashback/videos" class="channel-card" target="_blank">FLASHBACK HISTORY</a>
-        <a href="https://www.youtube.com/@IntotheShadows/videos" class="channel-card" target="_blank">INTO THE SHADOWS</a>
-        <a href="https://www.youtube.com/@Fireship/videos" class="channel-card" target="_blank">FIRESHIP</a>
-        <a href="https://www.youtube.com/@ActionRetro/videos" class="channel-card" target="_blank">ACTION RETRO</a>
-        <a href="https://www.youtube.com/@SavvyNik/videos" class="channel-card" target="_blank">SAVVY NIK</a>
-        <a href="https://www.youtube.com/@MichaelNROH/videos" class="channel-card" target="_blank">MICHAEL NROH</a>
-        <a href="https://www.youtube.com/@BrodieRobertson/videos" class="channel-card" target="_blank">BRODIE ROBERTSON</a>
-        <a href="https://www.youtube.com/@DistroTube/videos" class="channel-card" target="_blank">DISTROTUBE</a>
-        <a href="https://www.youtube.com/@morrolinu/videos" class="channel-card" target="_blank">MORROLINUX</a>
-        <a href="https://www.youtube.com/@Lunduke/videos" class="channel-card" target="_blank">THE LUNDUKE JOURNAL</a>
-        <a href="https://www.youtube.com/@InternetAnarchist/videos" class="channel-card" target="_blank">INTERNET ANARCHIST</a>
-        <a href="https://www.youtube.com/@UpperEchelon/videos" class="channel-card" target="_blank">UPPER ECHELON</a>
-        <a href="https://www.youtube.com/@ColdFusion/videos" class="channel-card" target="_blank">COLD FUSION</a>
-        <a href="https://www.youtube.com/@Moon-Real/videos" class="channel-card" target="_blank">MOON</a>
-        <a href="https://www.youtube.com/@CainOnGames/videos" class="channel-card" target="_blank">CAIN ON GAMES</a>
-        <a href="https://www.youtube.com/@FinalFantasyUnion/videos" class="channel-card" target="_blank">FINAL FANTASY UNION</a>
-        <a href="https://www.youtube.com/@LastElixirProductions/videos" class="channel-card" target="_blank">LAST ELIXIR PRODUCTIONS</a>
-        <a href="https://www.youtube.com/@maxderrat/videos" class="channel-card" target="_blank">MAX DERRAT</a>
-        <a href="https://www.youtube.com/@decino/videos" class="channel-card" target="_blank">DECINO</a>
-        <a href="https://www.youtube.com/@ManlyBadassHero/videos" class="channel-card" target="_blank">MANLY BADASS HERO</a>
-        <a href="https://www.youtube.com/@JoshStrifePlays/videos" class="channel-card" target="_blank">JOSH STRIFE PLAYS</a>
-        <a href="https://www.youtube.com/@WatchTVM/videos" class="channel-card" target="_blank">TVM</a>
-        <a href="https://www.youtube.com/@TVMNewsmt/videos" class="channel-card" target="_blank">TVM NEWS</a>
-        <a href="https://www.youtube.com/@NETTelevision/videos" class="channel-card" target="_blank">NET TV</a>
-        <a href="https://www.youtube.com/@Net_News_Malta/videos" class="channel-card" target="_blank">NET NEWS</a>
-        <a href="https://www.youtube.com/@ONEMalta/videos" class="channel-card" target="_blank">ONE TV</a>
-        <a href="https://www.youtube.com/@OneNewsMalta/videos" class="channel-card" target="_blank">ONE NEWS</a>
-        <a href="https://www.youtube.com/@TimesofMalta/videos" class="channel-card" target="_blank">TIMES OF MALTA</a>
-        <a href="https://www.youtube.com/@Newsbook_Malta/videos" class="channel-card" target="_blank">NEWSBOOK</a>
-    </div>
-    <div class="container">
-        <a href="https://tvmnews.mt/" class="" target="_blank">TVM News</a>
-        <a href="https://tvmi.mt/" class="" target="_blank">TVMi</a>
-        <a href="https://netnews.com.mt/gabra/lokali/" class="" target="_blank">Net News</a>
-        <a href="https://one.com.mt/kategorija/ahbarijiet/" class="" target="_blank">One News</a>
-        <a href="https://timesofmalta.com/articles" class="" target="_blank">Times of Malta</a>
-        <a href="https://newsbook.com.mt/en/latest-news/" class="" target="_blank">Newsbook</a>
-        <a href="https://talk.mt/" class="" target="_blank">Talk</a>
-        <a href="https://www.independent.com.mt/" class="" target="_blank">Malta Independent</a>
-        <a href="https://theshiftnews.com/news" class="" target="_blank">The Shift News</a>
-        <a href="https://lovinmalta.com/latest-news/" class="" target="_blank">Lovin Malta</a>
-        <a href="https://www.theguardian.com/europe" class="" target="_blank">The Guardian</a>
-        <a href="" class="https://www.theguardian.com/podcasts" target="_blank">Podcasts | The Guardian</a>
-        <a href="https://www.bbc.com/" class="" target="_blank">BBC</a>
-    </div>
+  <div class="wrap">
+    <div class="grid" id="feed"></div>
+  </div>
+
+  <script>
+    const channels = [
+        { name: "Ahoy", id: "UCE1jXbVAGJQEORz9nZqb5bQ" },
+        { name: "Qxir", id: "UCGHDQtN_vzFYJaq_Fx1eikg" },
+        { name: "Elisa True Crime", id: "UCxH0MkY6v0sjZzmMgW9TSRQ" },
+        { name: "Vassalli di Barbero", id: "UCzrNebaJySYxAL9HNhw1MMQ" },
+        { name: "Barbascura eXtra", id: "UCHi6Q3Z-5oJUC691WLlSntA" },
+        { name: "Geopop", id: "UCx7EWheHmjCW3vX8K2d09vg" },
+        { name: "Kyle Hill", id: "UCFbtcTaMFnOAP0pFO1L8hVw" },
+        { name: "MrMassy 81", id: "UCqVpw4vgIA2FCLRshlP85Wg" },
+        { name: "Cartoni Morti", id: "UChn336v-fUYkJH09vA4ZuCA" },
+        { name: "Dungeon Soup", id: "UCKTwTio3tOv713CnIcxyLhA" },
+        { name: "Curious Archive", id: "UCweDKPSF65wRw5VHFUJYiow" },
+        { name: "Official Beyond The Blue", id: "UCy6-V0dTuvNB_uFXpE5K5uQ" },
+        { name: "Extinct Zoo", id: "UC0ggS8bt4v7NiZpDfGqNpZQ" },
+        { name: "The Vile Eye", id: "UCxNlX8AUIh2nlLf4IL1DWzg" },
+        { name: "Cosmic Lore", id: "UCFgi4RA2Zl9VOaVjdRU9_2A" },
+        { name: "Entertain The Elk", id: "UC-gjznzViwMols6dz89qLbg" },
+        { name: "Ryan Hollinger", id: "UCphlppLaedKn0BgXAszs5dQ" },
+        { name: "Jake At Flashback", id: "UCqeNrqTDCOOn-oiQa_vH88A" },
+        { name: "Into The Shadows", id: "UCf-U0uPVQZtcqXUWa_Hl4Mw" },
+        { name: "Action Retro", id: "UCoL8olX-259lS1N6QPyP4IQ" },
+        { name: "Savvy Nik", id: "UC3yaWWA9FF9OBog5U9ml68A" },
+        { name: "Michael NROH", id: "UC1s1OsWNYDFgbROPV-q5arg" },
+        { name: "Brodie Robertson", id: "UCld68syR8Wi-GY_n4CaoJGA" },
+        { name: "DistroTube", id: "UCVls1GmFKf6WlTraIb_IaJg" },
+        { name: "Lunduke", id: "UCkK9UDm_ZNrq_rIXCz3xCGA" },
+        { name: "ColdFusion", id: "UC4QZ_LsYcvcq7qOsOhpAX4A" },
+        { name: "Moon", id: "UCmFeOdJI3IXgTBDzqBLD8qg" },
+        { name: "Cain On Games", id: "UCTAfm-YD2M9xzvbYvRc5ttA" },
+        { name: "Final Fantasy Union", id: "UCJUSr7xT6mgyz0Xj2rMD5CA" },
+        { name: "Last Elixir Productions", id: "UCS1kuVUbF_xjBLn27nZmldw" },
+        { name: "Max Derrat", id: "UCj8orMezFWVcoN-4S545Wtw" },
+        { name: "Manly Badass Hero", id: "UCKv8Rrrdc9oxLJmdHItafLA" },
+        { name: "Josh Strife Plays", id: "UCR9X2tT0_WVfuYO17vqstlA" }
+    ];
+
+    const els = { feed: document.getElementById("feed") };
+
+    function ytRssUrl(channelId) {
+      return `https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(channelId)}`;
+    }
+
+    function rssToJsonUrl(rssUrl) {
+      return `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+    }
+
+    function channelVideosUrl(channelId) {
+      return `https://www.youtube.com/channel/${encodeURIComponent(channelId)}/videos`;
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str ?? "";
+      return div.innerHTML;
+    }
+
+    function formatDate(dateStr) {
+      const d = new Date(dateStr);
+      if (isNaN(d)) return "Unknown date";
+      return d.toLocaleString();
+    }
+
+    function extractVideoId(link) {
+      try {
+        const url = new URL(link);
+        return url.searchParams.get("v");
+      } catch {
+        return null;
+      }
+    }
+
+    function thumbnailFor(item) {
+      if (item.thumbnail) return item.thumbnail;
+      const id = extractVideoId(item.link);
+      return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
+    }
+
+    async function fetchChannelFeed(channel) {
+      const url = rssToJsonUrl(ytRssUrl(channel.id));
+      const res = await fetch(url);
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} for ${channel.name}`);
+      }
+
+      const data = await res.json();
+
+      if (data.status !== "ok") {
+        throw new Error(`Feed error for ${channel.name}: ${data.message || "unknown error"}`);
+      }
+
+      return (data.items || []).map(item => ({
+        channelName: channel.name,
+        channelId: channel.id,
+        title: item.title,
+        link: item.link,
+        pubDate: item.pubDate,
+        thumbnail: thumbnailFor(item),
+      }));
+    }
+
+    function renderItems(items) {
+      els.feed.innerHTML = items.map(item => `
+        <article class="card">
+          <a class="thumb-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">
+            ${item.thumbnail ? `<img class="thumb" src="${escapeHtml(item.thumbnail)}" alt="">` : ""}
+          </a>
+          <div class="content">
+            <div class="channel">
+              <a href="${escapeHtml(channelVideosUrl(item.channelId))}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.channelName)}</a>
+            </div>
+            <h2 class="title">
+              <a href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+            </h2>
+            <div class="meta">${escapeHtml(formatDate(item.pubDate))}</div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    async function loadFeeds() {
+      const settled = await Promise.allSettled(channels.map(fetchChannelFeed));
+      const allItems = [];
+
+      for (const result of settled) {
+        if (result.status === "fulfilled") {
+          allItems.push(...result.value);
+        }
+      }
+
+      allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      renderItems(allItems);
+    }
+
+    loadFeeds();
+  </script>
 </body>
 </html>
